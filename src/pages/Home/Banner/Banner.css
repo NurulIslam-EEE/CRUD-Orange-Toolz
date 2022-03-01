@@ -1,0 +1,24 @@
+.img-banner {
+  background-blend-mode: darken;
+  padding: 100px 0;
+  height: 67vh;
+}
+.img-banner h1 {
+  font-size: 80px;
+  color: black;
+}
+.text-color {
+  color: #f15b43;
+}
+
+.text-size {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.button-color {
+  background-color: #f15b43;
+}
+.fileAdd input {
+  width: 90%;
+}

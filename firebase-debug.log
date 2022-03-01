@@ -1,0 +1,94 @@
+[debug] [2022-02-27T17:16:54.439Z] ----------------------------------------------------------------------
+[debug] [2022-02-27T17:16:54.450Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-02-27T17:16:54.451Z] CLI Version:   9.23.3
+[debug] [2022-02-27T17:16:54.452Z] Platform:      win32
+[debug] [2022-02-27T17:16:54.453Z] Node Version:  v14.17.1
+[debug] [2022-02-27T17:16:54.535Z] Time:          Sun Feb 27 2022 23:16:54 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-02-27T17:16:54.536Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-27T17:16:54.886Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-27T17:16:54.887Z] > authorizing via signed-in user (ni163034@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  I:\Web Development\programming-hero\job-task\Helping-Hand
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-27T17:17:41.507Z] Using project from CLI flag: helping-hand-team-project
+[debug] [2022-02-27T17:17:41.527Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/helping-hand-team-project [none]
+[debug] [2022-02-27T17:17:42.333Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/helping-hand-team-project 403
+[debug] [2022-02-27T17:17:42.334Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/helping-hand-team-project {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-02-27T17:17:42.336Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-02-27T17:17:42.628Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project helping-hand-team-project. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-02-27T17:22:32.961Z] ----------------------------------------------------------------------
+[debug] [2022-02-27T17:22:32.971Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-02-27T17:22:32.973Z] CLI Version:   9.23.3
+[debug] [2022-02-27T17:22:32.973Z] Platform:      win32
+[debug] [2022-02-27T17:22:32.974Z] Node Version:  v14.17.1
+[debug] [2022-02-27T17:22:32.977Z] Time:          Sun Feb 27 2022 23:22:32 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-02-27T17:22:32.978Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-27T17:22:33.287Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-27T17:22:33.288Z] > authorizing via signed-in user (ni163034@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  I:\Web Development\programming-hero\job-task\Helping-Hand
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-02-27T17:22:40.293Z] Using project from CLI flag: helping-hand-team-project
+[debug] [2022-02-27T17:22:40.308Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/helping-hand-team-project [none]
+[debug] [2022-02-27T17:22:41.030Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/helping-hand-team-project 403
+[debug] [2022-02-27T17:22:41.031Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/helping-hand-team-project {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-02-27T17:22:41.033Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-02-27T17:22:41.324Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\n\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project helping-hand-team-project. Please make sure the project exists and your account has permission to access it.

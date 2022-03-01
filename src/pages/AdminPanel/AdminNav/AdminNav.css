@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #2f4158 !important;
+}
+.adminHome {
+  min-height: 100vh;
+}
+.sidebar {
+  background: #2f4158;
+  margin: 0 auto;
+  color: whitesmoke;
+}
